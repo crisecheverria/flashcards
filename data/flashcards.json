@@ -1,0 +1,84 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "spanish": "Hola",
+      "english": "Hello",
+      "swedish": "Hej",
+      "imageUrl": "/images/hello.png",
+      "altText": "Waving hand"
+    },
+    {
+      "id": 2,
+      "spanish": "Gracias",
+      "english": "Thank you",
+      "swedish": "Tack",
+      "imageUrl": "/images/thankyou.png",
+      "altText": "Person saying thank you"
+    },
+    {
+      "id": 3,
+      "spanish": "Manzana",
+      "english": "Apple",
+      "swedish": "Äpple",
+      "imageUrl": "/images/apple.png",
+      "altText": "Red apple"
+    },
+    {
+      "id": 4,
+      "spanish": "Perro",
+      "english": "Dog",
+      "swedish": "Hund",
+      "imageUrl": "/images/dog.png",
+      "altText": "Dog"
+    },
+    {
+      "id": 5,
+      "spanish": "Gato",
+      "english": "Cat",
+      "swedish": "Katt",
+      "imageUrl": "/images/cat.png",
+      "altText": "Cat"
+    },
+    {
+      "id": 6,
+      "spanish": "Agua",
+      "english": "Water",
+      "swedish": "Vatten",
+      "imageUrl": "/images/water.png",
+      "altText": "Glass of water"
+    },
+    {
+      "id": 7,
+      "spanish": "Sol",
+      "english": "Sun",
+      "swedish": "Sol",
+      "imageUrl": "/images/sun.png",
+      "altText": "Sun"
+    },
+    {
+      "id": 8,
+      "spanish": "Luna",
+      "english": "Moon",
+      "swedish": "Måne",
+      "imageUrl": "/images/moon.png",
+      "altText": "Moon"
+    },
+    {
+      "id": 9,
+      "spanish": "Libro",
+      "english": "Book",
+      "swedish": "Bok",
+      "imageUrl": "/images/book.png",
+      "altText": "Book"
+    },
+    {
+      "id": 10,
+      "spanish": "Feliz",
+      "english": "Happy",
+      "swedish": "Glad",
+      "imageUrl": "/images/happy.png",
+      "altText": "Happy face"
+    }
+  ]
+}

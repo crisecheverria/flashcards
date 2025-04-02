@@ -1,0 +1,145 @@
+.container {
+	min-height: 100vh;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Arial', sans-serif;
+	/* Kid-friendly font */
+}
+
+.header {
+	width: 100%;
+	padding: 1.5rem 0;
+	background-color: #4A90E2;
+	color: white;
+	text-align: center;
+}
+
+.title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 2rem;
+}
+
+.counter {
+	margin: 0.5rem 0 0;
+	font-size: 1rem;
+}
+
+.main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	background-color: #f5f5f5;
+}
+
+.card {
+	width: 100%;
+	max-width: 500px;
+	background-color: white;
+	border-radius: 15px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.imageContainer {
+	margin-bottom: 1.5rem;
+}
+
+.cardImage {
+	object-fit: contain;
+	border-radius: 8px;
+}
+
+.spanishText {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin: 0 0 1rem 0;
+	color: #333;
+}
+
+.translationContainer {
+	width: 100%;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid #eee;
+}
+
+.translationText {
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+	color: #333;
+}
+
+.translationLabel {
+	font-weight: bold;
+}
+
+.tapInstruction {
+	margin-top: 1rem;
+	color: #999;
+	font-size: 1rem;
+}
+
+.navigationButtons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 500px;
+	margin-top: 2rem;
+}
+
+.navButton {
+	background-color: #4A90E2;
+	color: white;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+	background-color: #3A80D2;
+}
+
+.footer {
+	width: 100%;
+	padding: 1rem 0;
+	border-top: 1px solid #eaeaea;
+	text-align: center;
+	background-color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+	.title {
+		font-size: 1.5rem;
+	}
+
+	.spanishText {
+		font-size: 2rem;
+	}
+
+	.translationText {
+		font-size: 1.2rem;
+	}
+
+	.card {
+		padding: 1.5rem;
+	}
+}
