@@ -1,0 +1,89 @@
+{
+  "title": {
+    "english": "Visiting the Dentist",
+    "swedish": "Besöka tandläkaren",
+    "spanish": "Visitando al dentista"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "english": "Making an appointment for a specific date",
+      "swedish": "Boka en tid för ett specifikt datum",
+      "spanish": "Hacer una cita para una fecha específica",
+      "imageUrl": "/images/dentist/appointment.png",
+      "altText": "Calendar with dentist appointment"
+    },
+    {
+      "id": 2,
+      "english": "Going with mom/dad/brother",
+      "swedish": "Gå med mamma/pappa/bror",
+      "spanish": "Ir con mamá/papá/hermano",
+      "imageUrl": "/images/dentist/family.png",
+      "altText": "Family going to dentist"
+    },
+    {
+      "id": 3,
+      "english": "Meeting the dentist and nurse",
+      "swedish": "Träffa tandläkaren och sjuksköterskan",
+      "spanish": "Conocer al dentista y a la enfermera",
+      "imageUrl": "/images/dentist/meet.png",
+      "altText": "Dentist and nurse greeting"
+    },
+    {
+      "id": 4,
+      "english": "Sitting in the dentist chair",
+      "swedish": "Sitta i tandläkarstolen",
+      "spanish": "Sentarse en la silla del dentista",
+      "imageUrl": "/images/dentist/chair.png",
+      "altText": "Child sitting in dentist chair"
+    },
+    {
+      "id": 5,
+      "english": "Opening mouth wide",
+      "swedish": "Öppna munnen brett",
+      "spanish": "Abrir la boca grande",
+      "imageUrl": "/images/dentist/open-mouth.png",
+      "altText": "Child with open mouth"
+    },
+    {
+      "id": 6,
+      "english": "Seeing the dentist's bright light",
+      "swedish": "Se tandläkarens starka lampa",
+      "spanish": "Ver la luz brillante del dentista",
+      "imageUrl": "/images/dentist/light.png",
+      "altText": "Dentist light"
+    },
+    {
+      "id": 7,
+      "english": "The dentist uses a dental mirror to check teeth",
+      "swedish": "Tandläkaren använder en tandspegel för att kontrollera tänderna",
+      "spanish": "El dentista usa un espejo dental para revisar los dientes",
+      "imageUrl": "/images/dentist/mirror.png",
+      "altText": "Dentist using dental mirror"
+    },
+    {
+      "id": 8,
+      "english": "Getting fluoride treatment",
+      "swedish": "Få fluorbehandling",
+      "spanish": "Recibir tratamiento con flúor",
+      "imageUrl": "/images/dentist/fluoride.png",
+      "altText": "Fluoride treatment application"
+    },
+    {
+      "id": 9,
+      "english": "Taking X-rays of teeth",
+      "swedish": "Ta röntgenbilder av tänderna",
+      "spanish": "Tomar radiografías de los dientes",
+      "imageUrl": "/images/dentist/xray.png",
+      "altText": "Dental X-ray machine"
+    },
+    {
+      "id": 10,
+      "english": "Going back home",
+      "swedish": "Åka hem igen",
+      "spanish": "Volver a casa",
+      "imageUrl": "/images/dentist/home.png",
+      "altText": "Going home after dentist"
+    }
+  ]
+}

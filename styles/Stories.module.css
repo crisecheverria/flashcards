@@ -1,156 +1,97 @@
-.welcomeContainer {
-	text-align: center;
-	max-width: 800px;
-	margin: 0 auto 2rem;
-}
-
-.welcomeTitle {
-	font-size: 2.5rem;
-	color: #333;
-	margin-bottom: 1rem;
-}
-
-.welcomeText {
-	font-size: 1.2rem;
-	color: #666;
-	line-height: 1.6;
-}
-
-.optionsContainer {
-	display: flex;
-	justify-content: center;
-	gap: 2rem;
+.storiesContainer {
 	width: 100%;
 	max-width: 1000px;
 }
 
-.optionCard {
-	flex: 1;
-	max-width: 350px;
+.pageTitle {
+	font-size: 2.5rem;
+	color: #333;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.pageDescription {
+	font-size: 1.2rem;
+	color: #666;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto 2rem;
+	line-height: 1.6;
+}
+
+.storiesList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 2rem;
+	width: 100%;
+}
+
+.storyCard {
 	background-color: white;
 	border-radius: 15px;
-	padding: 2rem;
+	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.optionCard:hover {
+.storyCard:hover {
 	transform: translateY(-10px);
 	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-.optionImageContainer {
-	margin-bottom: 1.5rem;
+.storyImageContainer {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	margin-bottom: 1rem;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
-.optionImage {
+.storyImage {
+	object-fit: cover;
 	border-radius: 8px;
 }
 
-.optionTitle {
-	font-size: 1.8rem;
+.storyTitle {
+	font-size: 1.5rem;
 	font-weight: bold;
-	margin: 0 0 1rem 0;
+	margin: 0 0 0.5rem 0;
 	color: #4A90E2;
 }
 
-.optionDescription {
-	text-align: center;
-	font-size: 1.1rem;
+.storyDescription {
+	font-size: 1rem;
 	color: #555;
 	line-height: 1.5;
+	margin-bottom: 1rem;
+	flex-grow: 1;
 }
 
-/* Flashcards styles */
-.card {
-	width: 100%;
-	max-width: 500px;
-	background-color: white;
-	border-radius: 15px;
-	padding: 2rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-	cursor: pointer;
-	transition: transform 0.3s ease;
-}
-
-.card:hover {
-	transform: translateY(-5px);
-}
-
-.imageContainer {
-	margin-bottom: 1.5rem;
-}
-
-.cardImage {
-	object-fit: contain;
-	border-radius: 8px;
-}
-
-.spanishText {
-	font-size: 2.5rem;
+.storySteps {
+	font-size: 0.9rem;
+	color: #888;
 	font-weight: bold;
-	margin: 0 0 1rem 0;
+}
+
+/* Story Viewer styles */
+.storyViewerContainer {
+	width: 100%;
+	max-width: 800px;
+}
+
+.storyHeader {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.storyTitle {
+	font-size: 2rem;
 	color: #333;
-}
-
-.translationContainer {
-	width: 100%;
-	margin-top: 1rem;
-	padding-top: 1rem;
-	border-top: 1px solid #eee;
-}
-
-.translationText {
-	font-size: 1.5rem;
-	margin: 0.5rem 0;
-	color: #333;
-}
-
-.translationLabel {
-	font-weight: bold;
-}
-
-.tapInstruction {
-	margin-top: 1rem;
-	color: #999;
-	font-size: 1rem;
-}
-
-.navigationButtons {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	max-width: 500px;
-	margin-top: 2rem;
-}
-
-.navButton {
-	background-color: #4A90E2;
-	color: white;
-	border: none;
-	padding: 0.75rem 1.5rem;
-	border-radius: 8px;
-	font-size: 1rem;
-	font-weight: bold;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-}
-
-.navButton:hover {
-	background-color: #3A80D2;
-}
-
-.counter {
-	margin: 0.5rem 0 1.5rem;
-	font-size: 1rem;
-	color: #666;
+	margin-bottom: 0.5rem;
 }
 
 .languageSelector {
@@ -181,7 +122,35 @@
 	font-weight: bold;
 }
 
-/* Visual Stories styles */
+.counter {
+	margin: 0.5rem 0 1.5rem;
+	font-size: 1rem;
+	color: #666;
+}
+
+.stepCard {
+	width: 100%;
+	background-color: white;
+	border-radius: 15px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+	margin-bottom: 1.5rem;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stepImage {
+	object-fit: contain;
+	border-radius: 8px;
+}
+
 .stepText {
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -195,6 +164,40 @@
 	margin-top: 1rem;
 	padding-top: 1rem;
 	border-top: 1px solid #eee;
+}
+
+.translationText {
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+	color: #333;
+}
+
+.translationLabel {
+	font-weight: bold;
+	color: #666;
+}
+
+.navigationButtons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.navButton {
+	background-color: #4A90E2;
+	color: white;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+	background-color: #3A80D2;
 }
 
 .stepIndicators {
@@ -221,43 +224,29 @@
 
 /* Responsive styles */
 @media (max-width: 768px) {
-	.optionsContainer {
-		flex-direction: column;
-		align-items: center;
+	.storiesList {
+		grid-template-columns: 1fr;
 	}
 
-	.optionCard {
-		width: 100%;
-	}
-
-	.welcomeTitle {
+	.pageTitle {
 		font-size: 2rem;
+	}
+
+	.storyTitle {
+		font-size: 1.3rem;
 	}
 }
 
 @media (max-width: 600px) {
-	.welcomeTitle {
-		font-size: 1.8rem;
-	}
-
-	.optionTitle {
-		font-size: 1.5rem;
-	}
-
-	.optionDescription {
-		font-size: 1rem;
-	}
-
-	.spanishText {
-		font-size: 2rem;
+	.stepText {
+		font-size: 1.4rem;
 	}
 
 	.translationText {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 
-	.card,
-	.optionCard {
+	.stepCard {
 		padding: 1.5rem;
 	}
 }
