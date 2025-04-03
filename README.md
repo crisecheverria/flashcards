@@ -2,6 +2,8 @@
 
 A Next.js application designed for children with autism to learn languages and understand social situations. The app features Spanish flashcards with English and Swedish translations as well as visual stories that explain step-by-step processes for different situations.
 
+![home-page-preview](public/images/stories-preview.png "Stories Preview Home Page")
+
 ## Features
 
 ### Homepage
